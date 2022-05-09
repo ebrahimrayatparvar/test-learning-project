@@ -16,5 +16,15 @@ namespace WindowsFormsApp15
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Sum();
+        }
+
+        private void Sum()
+        {
+            MessageBox.Show("Test");
+        }
     }
 }
